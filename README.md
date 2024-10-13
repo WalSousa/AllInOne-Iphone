@@ -6,21 +6,21 @@ Criado um arquivo para implementação dos métodos do SmartPhone.
 
 classDiagram
 class MusicDevice {
-+playMusic(): void
-+pause(): void
-+selectMusic(): void
++playMusic() void
++pause() void
++selectMusic() void
 }
 
     class PhoneDevice {
-        +call(): void
-        +answer(): void
-        +voiceMail(): void
+        +call() void
+        +answer() void
+        +voiceMail() void
     }
 
     class WebBrowser {
-        +showPage(): void
-        +addNewPage(): void
-        +updatePage(): void
+        +showPage() void
+        +addNewPage() void
+        +updatePage() void
     }
 
     class iPhone {

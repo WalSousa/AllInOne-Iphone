@@ -2,7 +2,7 @@ Métodos de funções do smartPhone
 
 Criado um arquivo para implementação dos métodos do SmartPhone.
 
-
+```mermaid
 
 classDiagram
 class MusicDevice {
@@ -29,3 +29,4 @@ class MusicDevice {
     iPhone --> MusicDevice
     iPhone --> PhoneDevice
     iPhone --> WebBrowser
+```
